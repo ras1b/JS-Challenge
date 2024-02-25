@@ -23,7 +23,7 @@ drawTriangle([35, 50], [65, 50], [50, 35])
 drawLine([50, 550], [950, 550])
 drawTriangle([950, 535], [950, 565], [965, 550])
 
-// Create a List for Stocks Class
+// Create a List for Stocks and append them in the DOM
 function listStock(stock){
   for (var i = 0; i < stock.array.length; i++){
     var list = stock.array[i];
